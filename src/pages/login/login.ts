@@ -1,21 +1,21 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { LoginPage } from '../login/login';
+import { TabsPage } from '../tabs/tabs';
 
 @IonicPage()
 @Component({
-  selector: 'page-into',
-  templateUrl: 'into.html',
+  selector: 'page-login',
+  templateUrl: 'login.html',
 })
-export class IntoPage {
+export class LoginPage {
 
-  nextPage = LoginPage;
+  nextPage = TabsPage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad IntoPage');
-  }
+
+
+
 
 }
