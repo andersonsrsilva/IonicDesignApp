@@ -13,7 +13,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { LoginPage } from '../pages/login/login';
 import { VideoPage } from '../pages/video/video';
-
+import { VimeoVideo } from '../pages/videos/vimeo';
+import { YoutubeVideo } from '../pages/videos/youtube';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,8 @@ import { VideoPage } from '../pages/video/video';
     TabsPage,
     LoginPage,
     VideoPage,
+    VimeoVideo,
+    YoutubeVideo,
   ],
   imports: [
     BrowserModule,
@@ -40,6 +43,8 @@ import { VideoPage } from '../pages/video/video';
     TabsPage,
     LoginPage,
     VideoPage,
+    VimeoVideo,
+    YoutubeVideo,
   ],
   providers: [
     StatusBar,
