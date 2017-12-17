@@ -1,15 +1,16 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
 
-@IonicPage()
 @Component({
-  selector: 'page-news',
-  templateUrl: 'news.html',
+  selector: 'page-contact',
+  templateUrl: 'news.html'
 })
 export class NewsPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  }
+  stream: string = "popular";
 
+  constructor(public navCtrl: NavController) {
+
+  }
 
 }

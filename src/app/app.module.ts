@@ -4,8 +4,8 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { IntoPage } from '../pages/into/into';
-import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { NewsPage } from '../pages/news/news';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -15,13 +15,11 @@ import { VimeoVideo } from '../pages/videos/vimeo';
 import { YoutubeVideo } from '../pages/videos/youtube';
 import { MusicPage } from '../pages/music/music';
 import { ParallaxHeader } from '../directives/parallax-header/parallax-header';
-import { NewsPage } from '../pages/news/news';
 
 @NgModule({
   declarations: [
     MyApp,
     IntoPage,
-    HomePage,
     TabsPage,
     LoginPage,
     VideoPage,
@@ -39,7 +37,6 @@ import { NewsPage } from '../pages/news/news';
   entryComponents: [
     MyApp,
     IntoPage,
-    HomePage,
     TabsPage,
     LoginPage,
     VideoPage,
