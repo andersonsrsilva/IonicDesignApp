@@ -1,0 +1,54 @@
+page-music {
+
+    .right {
+        float: right;
+        margin-top: -37px;
+    }   
+
+    .tracks {
+        font-family: open-sans;
+        font-size: 14px;
+        color: #B7C4CB;
+        margin-top: -10px;
+    }
+
+    .box {
+        position: relative;
+    }
+
+    .player {
+        position: absolute;
+        left: 33vw;
+        top: 5.5vh;
+    }
+
+    .play{
+        margin-top: 1.5vh;
+    }
+
+    .play-menu {
+        float: right;
+        margin-top: 2.2vh;
+        width: 7%;
+        height: auto;
+    }
+
+    .title {
+        font-family: open-sans;
+        font-size: 14px;
+        color: #1C252A;
+        margin-top: -10px;
+    }
+
+    .subtitle {
+        font-family: open-sans;
+        font-size: 9px;
+        color: #B7C4CB;
+        margin-top: -12px;
+    }
+
+
+
+
+
+}

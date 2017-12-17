@@ -15,6 +15,8 @@ import { LoginPage } from '../pages/login/login';
 import { VideoPage } from '../pages/video/video';
 import { VimeoVideo } from '../pages/videos/vimeo';
 import { YoutubeVideo } from '../pages/videos/youtube';
+import { MusicPage } from '../pages/music/music';
+import { ParallaxHeader } from '../directives/parallax-header/parallax-header';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { YoutubeVideo } from '../pages/videos/youtube';
     VideoPage,
     VimeoVideo,
     YoutubeVideo,
+    MusicPage,
+    ParallaxHeader,
   ],
   imports: [
     BrowserModule,
@@ -45,6 +49,7 @@ import { YoutubeVideo } from '../pages/videos/youtube';
     VideoPage,
     VimeoVideo,
     YoutubeVideo,
+    MusicPage,
   ],
   providers: [
     StatusBar,
