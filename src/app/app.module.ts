@@ -3,9 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { AboutPage } from '../pages/about/about';
 import { IntoPage } from '../pages/into/into';
-import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 
@@ -17,13 +15,12 @@ import { VimeoVideo } from '../pages/videos/vimeo';
 import { YoutubeVideo } from '../pages/videos/youtube';
 import { MusicPage } from '../pages/music/music';
 import { ParallaxHeader } from '../directives/parallax-header/parallax-header';
+import { NewsPage } from '../pages/news/news';
 
 @NgModule({
   declarations: [
     MyApp,
-    AboutPage,
     IntoPage,
-    ContactPage,
     HomePage,
     TabsPage,
     LoginPage,
@@ -32,6 +29,7 @@ import { ParallaxHeader } from '../directives/parallax-header/parallax-header';
     YoutubeVideo,
     MusicPage,
     ParallaxHeader,
+    NewsPage,
   ],
   imports: [
     BrowserModule,
@@ -40,9 +38,7 @@ import { ParallaxHeader } from '../directives/parallax-header/parallax-header';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    AboutPage,
     IntoPage,
-    ContactPage,
     HomePage,
     TabsPage,
     LoginPage,
@@ -50,6 +46,7 @@ import { ParallaxHeader } from '../directives/parallax-header/parallax-header';
     VimeoVideo,
     YoutubeVideo,
     MusicPage,
+    NewsPage,
   ],
   providers: [
     StatusBar,
