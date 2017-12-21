@@ -4,7 +4,7 @@ page-profile {
     text-align: center;
   }
   .header-social {
-    position: absolute;
+    position: absoloute;
     bottom: 0px;
     text-align: center;
     margin-top: -5.5vh;
@@ -30,12 +30,12 @@ page-profile {
   }
   .numbers {
     font-family: open-sans;
-    color: #323E46;
+    color: #323e46;
     font-size: 20px;
   }
   .numbers-title {
     font-family: open-sans;
-    color: #B7C4b7;
+    color: #b7c4cb;
     font-size: 16px;
     margin-top: -3vh;
   }
@@ -49,4 +49,22 @@ page-profile {
     margin-top: -4.8vh;
     margin-right: 36vw;
   }
+  .slides {
+    max-height: 20%;
+    background-color: #f7f8fa;
+  }
+  .slide-image {
+    width: 75%;
+  }
+  .share-numbers {
+    font-family: open-sans;
+    color: #0091ea;
+    font-size: 16px;
+    margin-top: -6vh;
+  }
+}
+
+.toast-message {
+  color: white;
+  background-color: #0091ea;
 }
