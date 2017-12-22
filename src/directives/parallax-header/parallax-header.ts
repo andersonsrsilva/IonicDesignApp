@@ -21,8 +21,6 @@ export class ParallaxHeader {
   ngOnInit() {
     let content = this.element.nativeElement.getElementsByClassName('scroll-content')[0];
 
-    console.log(content);
-
     this.header = content.getElementsByClassName('header-image')[0];
     let mainContent = content.getElementsByClassName('main-content')[0];
 

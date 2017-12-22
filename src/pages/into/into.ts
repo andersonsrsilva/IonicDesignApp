@@ -14,8 +14,5 @@ export class IntoPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad IntoPage');
-  }
 
 }
